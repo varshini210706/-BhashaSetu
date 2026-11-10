@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+backend/venv/
+
+# React
+node_modules/
+dist/
+
+# Environment files
+.env
+
+# Temporary audio
+*.webm
+*.wav
+*.mp3
+
+# Large Kannada model
+asr_models/kn/model.int8.onnx
